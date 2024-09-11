@@ -1,0 +1,19 @@
+#photos-list {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+/* Kontener galerii */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1920px; /* 3x 620px + odstępy */
+}
+
+/* Styl zdjęć */
+.gallery img {
+  width: 620px;
+  height: 420px;
+  padding-bottom: 10px;
+}

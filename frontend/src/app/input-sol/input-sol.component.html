@@ -1,0 +1,13 @@
+<div class="input-sol">
+  <input
+    required=""
+    type="text"
+    name="text"
+    autocomplete="off"
+    class="input"
+    placeholder="Sol"
+    #box
+    (keyup)="setSol(box.value)"
+  />
+  <button (click)="click()" type="button" class="button">Get</button>
+</div>

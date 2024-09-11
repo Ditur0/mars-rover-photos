@@ -1,0 +1,45 @@
+#header {
+  background-color: rgb(26, 26, 26);
+  padding-top: 20px;
+  height: 140px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+#mars-text {
+  background-color: rgb(26, 26, 26);
+  width: 450px;
+  gap: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  padding-bottom: 20px;
+}
+
+#counter {
+  height: 80px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  background-color: rgb(26, 26, 26);
+}
+
+#timer {
+  height: 35px;
+  width: 350px;
+  color: white;
+  text-align: center;
+  background-color: rgb(26, 26, 26);
+  padding-bottom: 6px;
+}
+
+#time-units-container {
+  color: white;
+  font-size: 12px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(26, 26, 26);
+}

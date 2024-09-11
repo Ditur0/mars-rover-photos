@@ -1,0 +1,52 @@
+<div id="header">
+  <div id="mars-text">
+    <span>
+      <img src="assets/dot.png" width="17" height="17" />
+    </span>
+    <span style="font-size: 28px; color: white">MARS ROVER PHOTOS</span>
+    <span>
+      <img src="assets/dot.png" width="17" height="17" />
+    </span>
+  </div>
+
+  <div id="counter">
+    <span
+      id="time-on-mars"
+      style="
+        color: red;
+        font-weight: bold;
+        padding-left: 6px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 500;
+      "
+      >TIME ON MARS</span
+    >
+
+    <div id="timer">
+      <!-- <span style="font-weight: bold; font-size: 30px;" >03 : 06 : 09 : 16 : 25 : 27</span> -->
+      <span style="font-weight: bold; font-size: 30px">
+        <span>{{ stringYears }}</span>
+        <span> : </span>
+        <span>{{ stringMonths }}</span>
+        <span> : </span>
+        <span>{{ stringDays }}</span>
+        <span> : </span>
+        <span>{{ stringHours }}</span>
+        <span> : </span>
+        <span>{{ stringMinutes }}</span>
+        <span> : </span>
+        <span>{{ stringSeconds }}</span>
+      </span>
+    </div>
+
+    <div id="time-units-container">
+      <span>YRS</span>
+      <span>MOS</span>
+      <span>DAYS</span>
+      <span>HRS</span>
+      <span>MINS</span>
+      <span>SECS</span>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,2 @@
-(backend/src/main/resources/photo.png)
+![Photo](photo.png)
+
